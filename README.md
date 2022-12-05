@@ -1,6 +1,6 @@
 # distributed-system-class
 this is repo for storing code for distributed system
-group members
-  eyasu kibru
-  endalkachew jember
-  derbew alemu
+group members<br />
+  eyasu kibru<br />
+  endalkachew jember<br />
+  derbew alemu<br /> 
