@@ -1,14 +1,10 @@
-import { createServer } from "http";
-import  server  from "socket.io";
+import net from 'net';
 
-const Server = server;
 const port = 1277;
 
-const httpServer = createServer();
-const io = new Server(httpServer, {});
+const server = net.createServer((socket) => {
+  socket.end('');
+})
 
-io.on("connection", (socket) => {
-  
-});
+server.listen(port);
 
-httpServer.listen(port);
