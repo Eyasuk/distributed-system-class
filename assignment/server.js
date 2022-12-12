@@ -1,6 +1,9 @@
 import net from 'net';
 
 const host = "127.0.0.1";
+// we tried public ip it workes fine 
+// the reason we used local host is to make it compatable on every computer
+// even if ip is changed
 const port = 1277;
 const SIM_LENGTH = 10;
 
